@@ -1,0 +1,13 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/WebApiService/WebApiService/appsettings.Development.json
+/WebApiService/WebApiService/bin/Debug/netcoreapp3.1
+/WebApiService/WebApiService/obj
+/WebApiService/WebApiService/WebApiService.csproj.user
+/WebApiService/.vs/WebApiService
+/ApiGateWay/ApiGateWay/obj
+/ApiGateWay/ApiGateWay/bin/Debug/netcoreapp3.1
+/ApiGateWay/.vs/ApiGateWay
+/ApiGateWay/ApiGateWay/appsettings.Development.json
