@@ -39,14 +39,14 @@ namespace WebApiService
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHealthChecks(serviceOptions.Value.HealthCheck);
-            app.UseConsul();
-
             app.UseRouting();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+
+            app.UseHealthChecks(serviceOptions.Value.HealthCheck);
+            app.UseConsul();
         }
     }
 }
